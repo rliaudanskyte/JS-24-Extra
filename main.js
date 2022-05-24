@@ -27,7 +27,6 @@ class Card {
     constructor(frontSide, backSide) {
         this.frontSide = frontSide;
         this.backSide = backSide;
-        this.cardId = lSCards.length+1;
     }
     stringifyCards() {
         lSCards.push(this);
